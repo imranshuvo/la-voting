@@ -1,5 +1,5 @@
 <header class="flex items-center justify-between px-8 py-4">
-    <a href="/">Logo</a>
+    <a href="/"><img class="w-48" src="{{ asset('default-monochrome.svg') }}" alt=""></a>
     <div class="flex items-center">
         @if (Route::has('login'))
             <div class="px-6 py-4 ">
