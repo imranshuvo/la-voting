@@ -17,8 +17,12 @@
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
-        <div class="font-sans text-gray-900 antialiased">
+        <div class="font-sans bg-gray-background text-gray-900 text-sm">
+            @include('layouts.nav')
+
+            <main class="container w-96 mx-auto">
             {{ $slot }}
+            </main>
         </div>
     </body>
 </html>

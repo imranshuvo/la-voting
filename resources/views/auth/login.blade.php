@@ -1,3 +1,4 @@
+{{-- Just trying to add the header/nav bar here --}}
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
